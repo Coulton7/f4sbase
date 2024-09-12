@@ -3,7 +3,6 @@ type: theme
 description: 'First4Seals Base Theme'
 core_version_requirement: ^9 || ^10
 base theme: aesbase
-hidden: true
 
 regions:
   logo: 'logo'
