@@ -43,7 +43,7 @@ libraries-extend:
   aesbase/bootstrap:
     - f4sbase/bootstrap
   aesbase/form:
-    - aesbase/form
+    - f4sbase/form
   
 
 # Information added by Drupal.org packaging script on 2024-06-09
