@@ -6,6 +6,7 @@ base theme: aesbase
 hidden: true
 
 regions:
+  logo: 'logo'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   secondary_nav: 'Secondary Nav'
@@ -29,7 +30,6 @@ regions:
   admin: 'Administration Area'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-
 ckeditor5-stylesheets:
   - assets/css/ckeditor5.css
 
