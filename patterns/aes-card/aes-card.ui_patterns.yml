@@ -1,0 +1,37 @@
+aes-card:
+  label: AES Card
+  description: Standard card styles for AES Sites
+  variants:
+    default:
+      label: Normal
+      description: Just used to show cards and no other bhaviours with them
+    infi-card:
+      label: infi-card
+      description: Used to show an infinite scroll version of cards
+  fields:
+    image:
+      type: text
+      label: Image
+      description: The Card Image
+      preview: http://via.placeholder.com/350x350
+    heading:
+      type: text
+      label: Header
+      description: The card heading (usually title of the page)
+      preview: The title of the page
+    body:
+      type: text
+      label: Body
+      description: The card body can contain multiple fields
+      preview: This is an example of what the card body could be inside of it may also contain other fields like date field
+    footer:
+      type: text
+      label: Footer
+      description: This will be where links go to the items or buttons
+      preview: The button goes here
+    
+  libraries:
+    -
+      aes-card:
+        js:
+          js/infinite-scroll.js: {}
