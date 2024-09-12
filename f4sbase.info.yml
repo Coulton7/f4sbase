@@ -1,0 +1,52 @@
+name: 'F4S Base'
+type: theme
+description: 'First4Seals Base Theme'
+core_version_requirement: ^10 || ^11
+base theme: aesbase
+hidden: true
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  secondary_nav: 'Secondary Nav'
+  preface: 'Preface'
+  banner_promo: 'Banner Promo'
+  wavelower: 'Wavelower'
+  preface_lower: 'Preface Lower'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Offcanvas Left'
+  sidebar_second: 'Offcanvas Right'
+  base: 'Base'
+  suffix: 'Suffix'
+  postscript_fir: 'Postscript First'
+  postscript_mid: 'Postscript Middle'
+  postscript_last: 'Postscript Last'
+  footer_lower: 'Footer lower'
+  footer: 'Footer'
+  admin: 'Administration Area'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+ckeditor5-stylesheets:
+  - assets/css/ckeditor5.css
+
+libraries-override:
+  aesbase/bootstrap:
+    css:
+      theme:
+        /libraries/bootstrap/dist/css/bootstrap.min.css: false
+
+libraries-extend:
+  aesbase/bootstrap:
+    - f4sbase/bootstrap
+  aesbase/form:
+    - aesbase/form
+  
+
+# Information added by Drupal.org packaging script on 2024-06-09
+version: '5.0.0-alpha15'
+project: 'ui_suite_bootstrap'
+datestamp: 1717933759

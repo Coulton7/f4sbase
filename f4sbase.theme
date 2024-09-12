@@ -1,0 +1,10 @@
+<?php
+
+function f4sbase_preprocess_page(&$vars) {
+  $variables['second_logo'] = theme_get_setting('secondary_logo_path');
+  $variables['secondary_logo'] = theme_get_setting('secondary_logo');
+}
+function f4sbase_preprocess(&$variables, $hook){
+  $variables['second_logo'] = theme_get_setting('secondary_logo_path');
+  $variables['secondary_logo'] = theme_get_setting('secondary_logo');
+}
