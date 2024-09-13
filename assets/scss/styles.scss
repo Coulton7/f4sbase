@@ -4,3 +4,17 @@
 
 // Bootstrap Framework.
 @import "bootstrap";
+
+.lead {
+    color: #ebebeb; 
+}
+
+.navbar-nav>li>a:hover {
+    border-top: 4px solid #003f62;
+    border-bottom: none;
+}
+
+
+.navbar-nav {
+    background-color: #ffbf00;
+}
