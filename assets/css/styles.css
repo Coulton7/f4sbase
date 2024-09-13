@@ -12556,6 +12556,8 @@ textarea.form-control-lg {
 .navbar-nav > li > a:hover {
   border-top: 4px solid #003f62;
   border-bottom: none;
+  background-color: #e6ac00;
+  color: #ffffff;
 }
 
 .navbar-nav {
