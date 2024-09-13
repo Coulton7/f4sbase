@@ -16,6 +16,11 @@
     color: #ffffff;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    background-color: #e6ac00;
+    color: #ffffff;
+}
+
 .navbar-nav {
     background-color: #ffbf00;
 }
