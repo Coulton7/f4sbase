@@ -50,12 +50,16 @@
 <div class="row g-0 bannerimage">
   <div class="row g-0 waveupper">
     <div class="col-md-2 col-xs-1 col-1">
-      <div class="wavelogo">
-        {{ page.logo }}
-      </div>
-      <a class="logo navbar-btn float-start" href="{{ front_page }}" title=" {{ 'Home'|t }} ">
-				<img src="{{ second_logo }}" alt="{{ 'Home'|t }}" class="textlogo img-adaptive pt-1" alt="AESSEAL text logo"/>
-      </a>
+    {% if page.logo %}
+      {% if block logo %}
+        <div class="logo">
+          {{ page.logo }}
+        </div>
+        <a class="logo navbar-btn float-start" href="{{ front_page }}" title=" {{ 'Home'|t }} ">
+				  <img src="{{ second_logo }}" alt="{{ 'Home'|t }}" class="textlogo img-adaptive pt-1" alt="AESSEAL text logo"/>
+        </a>
+      {% endblock %}
+    {% endif %}
     </div>
 
 {# Navbar #}
