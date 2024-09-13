@@ -21,6 +21,10 @@
     color: #ffffff;
 }
 
+.navbar-nav > li > a.is-active, .navbar-nav > li > a.is-active:hover, .navbar-nav > li > a.is-active:focus {
+    background-color: #e6ac00;
+}
+
 .navbar-nav {
     background-color: #ffbf00;
 }
