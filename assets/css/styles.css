@@ -12578,4 +12578,10 @@ textarea.form-control-lg {
   padding: 0.95em 1.1em;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-nav .nav-link {
+    padding: 0.95em 1.1em;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
