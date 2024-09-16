@@ -12571,6 +12571,11 @@ textarea.form-control-lg {
 
 .navbar-nav {
   background-color: #ffbf00;
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.95em 1.1em;
 }
 
 /*# sourceMappingURL=styles.css.map */
