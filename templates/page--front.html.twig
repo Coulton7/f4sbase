@@ -45,7 +45,7 @@
  * @ingroup themeable
  */
 #}
-
+{{ attach_library('aesbase/front-library') }}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 <div class="row g-0 bannerimage">
   <div class="row g-0 waveupper">
@@ -107,10 +107,10 @@
     {% endif %}
   </div>
 
-  <div class="row no-padding g-0">
-    {% if page.preface_lower %}
-	    {% block preface_lower %}
-		    {{ page.preface_lower }}
+  <div class="row no-padding">
+    {% if page.preafce_lower %}
+	    {% block preafce_lower %}
+		    {{ page.preafce_lower }}
 	    {% endblock %}
     {% endif %}
   </div>
