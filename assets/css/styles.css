@@ -12553,6 +12553,10 @@ textarea.form-control-lg {
   color: #ebebeb;
 }
 
+a {
+  color: #e6ac00 !important;
+}
+
 .navbar-nav > li > a:hover {
   border-top: 4px solid #003f62;
   border-bottom: none;
