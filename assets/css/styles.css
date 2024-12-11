@@ -12566,7 +12566,7 @@ a {
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   background-color: #e6ac00;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .navbar-nav > li > a.is-active, .navbar-nav > li > a.is-active:hover, .navbar-nav > li > a.is-active:focus {
