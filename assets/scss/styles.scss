@@ -46,10 +46,17 @@ a {
 
 
 .breadcrumb li > a {
-
-
 display: inline-block;
 padding: 9px;
 border-bottom: none;
 text-decoration: none;
 }
+
+.breadcrumb li {
+    transform: skew(-25deg);
+     color: #002a5b; 
+    display: inline-block;
+    margin: 0.3em 0 0 0.4em;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    }
