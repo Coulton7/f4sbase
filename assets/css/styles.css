@@ -4601,7 +4601,7 @@ textarea.form-control-lg {
   margin-bottom: var(--bs-breadcrumb-margin-bottom);
   font-size: var(--bs-breadcrumb-font-size);
   list-style: none;
-  background-color: var(--bs-breadcrumb-bg);
+  background-color: var(--bs-white);
   border-radius: var(--bs-breadcrumb-border-radius);
 }
 
@@ -4611,7 +4611,7 @@ textarea.form-control-lg {
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: var(--bs-breadcrumb-item-padding-x);
-  color: var(--bs-breadcrumb-divider-color);
+  color: var(--bs-primary-text-emphasis);
   content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
 }
 .breadcrumb-item.active {
