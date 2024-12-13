@@ -4601,7 +4601,7 @@ textarea.form-control-lg {
   margin-bottom: var(--bs-breadcrumb-margin-bottom);
   font-size: var(--bs-breadcrumb-font-size);
   list-style: none;
-  background-color: var(--bs-white);
+  background-color: var(--bs-breadcrumb-bg);
   border-radius: var(--bs-breadcrumb-border-radius);
 }
 
@@ -4611,7 +4611,7 @@ textarea.form-control-lg {
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: var(--bs-breadcrumb-item-padding-x);
-  color: var(--bs-primary-text-emphasis);
+  color: var(--bs-breadcrumb-divider-color);
   content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
 }
 .breadcrumb-item.active {
@@ -12586,6 +12586,13 @@ a {
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 0.95em 1.1em;
   }
+}
+.breadcrumb li > a {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 9px;
+  border-bottom: none;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
