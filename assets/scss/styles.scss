@@ -55,9 +55,16 @@ text-decoration: none;
 .breadcrumb li {
     transform: skew(-25deg);
      color: #002a5b; 
-    background-color: #ffffff;
+    background-color: #ebf5ff;
     display: inline-block;
     margin: 0.3em 0 0 0.4em;
     word-break: break-word;
     overflow-wrap: break-word;
     }
+
+ .breadcrumb li:hover {
+   color: #002a5b;    }
+
+   .breadcrumb li > a:hover{
+    color: #002a5b;
+   }
