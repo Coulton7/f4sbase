@@ -1,7 +1,7 @@
 name: 'F4S Base'
 type: theme
 description: 'First4Seals Base Theme'
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^10 || ^11
 base theme: aesbase
 
 regions:
